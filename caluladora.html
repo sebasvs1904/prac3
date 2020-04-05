@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculadora</title>
+<link rel="stylesheet" type="text/css" href="css/calcula.css" />
+<script type="text/javascript" src="js/calcula.jss"></script>
+</head>
+<body>
+<div class="calculadora">
+<form action="#" name="calculadora" id="calculadora">
+<p id="textoPantalla">0</p>
+<p>
+<input type="button" class="largo" value="Retr" onclick="retro()"   />
+<input type="button" class="largo" value="CE" onclick="borradoParcial()"  />
+<input type="button" class="largo" value="C" onclick="borradoTotal()"  />
+</p>
+<p>
+<input type="button" class="format" value="7" onclick="numero('7')" />
+<input type="button" class="format" value="8" onclick="numero('8')" />
+<input type="button" class="format" value="9" onclick="numero('9')" />
+<input type="button" class="format" value="/" onclick="operar('/')"  />
+<input type="button" class="format" value="Raiz" onclick="raizc()" />
+ Convertir en:
+</p>
+<p>
+<input type="button" class="format" value="4" onclick="numero('4')" />
+<input type="button" class="format" value="5" onclick="numero('5')" />
+<input type="button" class="format" value="6" onclick="numero('6')" />
+<input type="button" class="format" value="*" onclick="operar('*')" />
+<input type="button" class="format" value="%" onclick="porcent()" />
+<input type="button" class="format" value="Binario" onclick="binario()" />
+</p>
+<p>
+<input type="button" class="format" value="1" onclick="numero('1')" />
+<input type="button" class="format" value="2" onclick="numero('2')" />
+<input type="button" class="format" value="3" onclick="numero('3')" />
+<input type="button" class="format" value="-" onclick="operar('-')" />
+<input type="button" class="format" value="1/x" onclick="inve()" />
+<input type="button" class="format" value="Octal" onclick="oct()" />
+
+</p>
+<p>
+<input type="button" class="format" value="0" onclick="numero('0')" />
+<input type="button" class="format" value="+/-" onclick="opuest()" />
+<input type="button" class="format" value="." onclick="numero('.')" />
+<input type="button" class="format" value="+" onclick="operar('+')" />
+<input type="button" class="format" value="=" onclick="igualar()" />
+<input type="button" class="format" value="Hexadecimal" onclick="h()" />
+</p>
+<p>    <input type="button" class="format" value="Sin()" onclick="sin()" />
+    <input type="button" class="format" value="Cos()" onclick="cos()" />
+    <input type="button" class="format" value="Tan()" onclick="tan()" />
+    <input type="button" class="format" value="arccos()" onclick="cot()" />
+    <input type="button" class="format" value="arcsin()" onclick="sec()" />
+    <input type="button" class="format" value="arctan" onclick="cs()" />    
+    </p>
+        <p>
+    <input type="button" class="format" value="e" onclick="e()" />
+    <input type="button" class="format" value="ln" onclick="ln()" />
+    <input type="button" class="format" value="Log" onclick="l()" />
+    <input type="button" class="format" value="x!" onclick="f()" />   
+    </p>
+</form>
+</div>
+</body>
+</html>
